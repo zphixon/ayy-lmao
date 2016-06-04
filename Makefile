@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS = -Wall -pedantic
 
 all: ayy_lmao.c
-	mkdir bin
+	mkdir -p bin
 	$(CC) $(CFLAGS) -o bin/ayy ayy_lmao.c
 
 clean:
@@ -10,7 +10,7 @@ clean:
 	rm -f /usr/bin/ayy
 
 install: ayy_lmao.c
-	mkdir bin
+	mkdir -p bin
 	$(CC) $(CFLAGS) -o bin/ayy ayy_lmao.c
 	cp bin/ayy /usr/bin/ayy
 	rm -r bin/
