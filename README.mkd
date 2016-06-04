@@ -1,0 +1,23 @@
+#ayy lmao
+
+:alien:
+
+##dependencies
+
+none, really. besides gcc, of course.
+
+##install
+
+this was the first makefile I've written.
+
+`$ make`
+
+or
+
+`# make install`
+
+to install to `/usr/bin`.
+
+##why?
+
+ayy lmao
