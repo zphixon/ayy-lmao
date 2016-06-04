@@ -51,7 +51,11 @@ int main(int argc, char* argv[])
         printf("                 -~!!!!!!!!!!!!!(!!/ .\n");
         printf("                    `!!!!!!!!!!!!!!'\n");
         printf("                      `\\!!!!!!!!!~\n");
-        system("figlet AYY LMAO");
+        printf("    _ __   ____   __  _     __  __    _    ___\n");
+        printf("   / \\\\ \\ / /\\ \\ / / | |   |  \\/  |  / \\  / _ \\\n");
+        printf("  / _ \\\\ V /  \\ V /  | |   | |\\/| | / _ \\| | | |\n");
+        printf(" / ___ \\| |    | |   | |___| |  | |/ ___ \\ |_| |\n");
+        printf("/_/   \\_\\_|    |_|   |_____|_|  |_/_/   \\_\\___/\n");
         return 0;
     } else {
         printf("unknown option: %s\n", argv[1]);
