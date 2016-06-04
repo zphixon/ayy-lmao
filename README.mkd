@@ -12,11 +12,11 @@ this was the first makefile I've written.
 
 `$ make`
 
-or
+to install to `bin/`, or
 
 `# make install`
 
-to install to `/usr/bin`.
+to install to `/usr/bin`
 
 ##why?
 
